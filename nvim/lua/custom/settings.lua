@@ -13,3 +13,5 @@ vim.opt.smartindent = true
 vim.opt.wrap = true
 
 vim.g.mapleader = " "
+
+vim.g.rustfmt_autosave = 1

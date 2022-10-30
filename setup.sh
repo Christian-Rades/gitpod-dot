@@ -1,4 +1,9 @@
 #! /usr/bin/env bash 
-mv nvim ~/.config
+mv .dotfiles/nvim ~/.config
 
-sudo apt-get install neovim tmux starship
+sudo apt-get install -y tmux 
+
+brew install neovim
+
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
